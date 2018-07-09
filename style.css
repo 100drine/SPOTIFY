@@ -1,0 +1,63 @@
+.header {
+    background-color: rgba(98,72,31,0.8);
+    height : 90px;
+    line-height: 90px;
+    position: fixed;
+    width: 100%;
+    left:0;
+    top:0;
+
+}
+
+.logo {
+	position: absolute;
+    left: 100px;
+    right: 100px;
+    float: left;
+  
+
+}
+
+.menu a {
+	margin-right: 25px;
+    float: right;
+    color: #FFFFFF;
+    font-size: 15px;
+}
+
+img{
+    height: 90px;
+    width: 100px;
+    align-content: center;
+}
+    
+/*.jumbotron{
+    height: 700px;
+    width: 100%;
+    text-align: center;
+    margin-top: 90px;
+    background-color: transparent;
+    color:white;
+}*/
+
+
+
+.fond {
+ background: url ('../img/blurred-spotify-background.jpg') no-repeat center center;
+ width: 100%;
+ height: 400px; 
+ top:0;
+ left:0;
+ z-index: -1;
+display: flex;
+}
+
+.display-4 {
+    vertical-align: center;
+    margin:auto;
+}
+
+.carouselExampleControls{
+    margin-top: 400px;
+    height: 400Px;
+}
